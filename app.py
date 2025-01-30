@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Your App Name",
+    initial_sidebar_state="expanded",
+    layout="wide"  # optional
+)
+
 # Titulek aplikace
 st.title("Moje Streamlit Aplikace na AWS App Runner")
 
